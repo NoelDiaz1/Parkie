@@ -1,0 +1,185 @@
+body {
+    background-image: url("poolgif.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+
+/* Combinators */
+
+.logo-header-text, 
+.label,
+.bottom-container, 
+.submitBtn, 
+.createNewBtn {
+    display: flex;
+}
+
+/* Heading */
+
+.logo {
+    object-fit: contain;
+    background-size: contain;
+    width: 100px;
+    margin-left: 25px;
+}
+
+.logo-header-text {
+    border-bottom: solid 1px black;
+}
+
+.logo-header-text h3 {
+    padding: 16px;
+    width: 400px;
+    margin-left: 40px;
+    letter-spacing: .9px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* Main content */
+
+.main-container {
+    background-color: gainsboro;
+    opacity: .9;
+    height: 125vh;
+    width: 90%;
+    margin: 15px auto;
+    max-width: 700px;
+    min-width: 660px;
+    box-shadow: 1px 1px 20px black;
+}
+
+.label {
+    font-size: 1.3rem;
+    margin: 5px;
+}
+
+input, 
+.pools {
+    font-size: 1.1rem;
+    margin-left: 5px;
+    box-shadow: .1px .1px black;
+    height: 25px;
+}
+
+.capacityInput {
+    width: 40%;
+}
+
+.form-container {
+    position: relative;
+}
+
+.pools {
+    margin: 5px;
+    text-align: center
+}
+
+.bottom-container {
+    flex-direction: column;
+    position: absolute;
+    margin: 0 40px;
+    right: 0;
+    top: -7px;
+}
+
+input[type="radio"] {
+    margin: 15px 36px;
+}
+
+.other-option-container {
+    margin-right: 45px;
+}
+
+.other-option-textarea {
+    width: 310px;
+    height: 150px;
+    margin-top: 20px;
+    resize: none;
+}
+
+.previous-page-btn {
+    border: none;
+    background-color: teal;
+    width: 25%;
+    position: relative;
+    left: 490px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 10px black;
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+
+#delayed-header {
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top: 50px;
+}
+
+/* Buttons */
+
+.submitBtn,
+.createNewBtn {
+    width: 35%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 30px auto;
+    background-color: teal;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px black;
+    text-shadow: 1px 1px 20px black;
+}
+
+.submitBtn {
+    margin-top: 50px;
+}
+
+.createNewBtn {
+    background-color: green;
+    margin-top: 60px;
+    width: 45%;
+    height: 50px;
+}
+
+.submitBtn:hover {
+    background-color: #004c4c;
+}
+
+.createNewBtn:hover {
+    background-color: red;
+}
+
+.submittedSentence {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.85rem;
+    padding: 20px;
+    font-weight: 300;
+}
+
+.popup-content {
+    width: 500px;
+    height: 400px;
+    background-color: gainsboro;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 25% auto;
+    padding: 20px;
+    box-shadow: 1px 1px 1000px black;
+    border-radius: 15px;
+}
+
+
